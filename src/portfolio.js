@@ -49,12 +49,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "DEVELOPER WITH SOME EXPERIENCE IN MULTIPLE TECH STACKS OPEN TO ALWAYS LEARNING",
+  subTitle:
+    "DEVELOPER WITH SOME EXPERIENCE IN MULTIPLE TECH STACKS OPEN TO ALWAYS LEARNING",
   skills: [
-    emoji(
-      "⚡ Undergraduate on C++ and Python"
-    ),
-    emoji("⚡ Certificate in Deep Learning Specialization"),
+    emoji("⚡ Undergraduate on C++ and Python"),
+    emoji("⚡ Certificate in Deep Learning Specialization")
     // emoji(
     //   "⚡ Beginner in"
     // )
@@ -277,11 +276,15 @@ const achievementSection = {
 
     {
       title: "Undergraduate Thesis",
-      subtitle: "Published and Presented Undergraduate Thesis titled Development of an Automatic Temperature Screening System for Elevated Skin Temperature With Information Logging Capability.",
+      subtitle:
+        "Published and Presented Undergraduate Thesis titled Development of an Automatic Temperature Screening System for Elevated Skin Temperature With Information Logging Capability.",
       image: require("./assets/images/ateneoLogo.png"),
       imageAlt: "Ateneo Logo",
       footerLink: [
-        {name: "Link to Published Paper", url: "https://ieeexplore.ieee.org/document/9673511"}
+        {
+          name: "Link to Published Paper",
+          url: "https://ieeexplore.ieee.org/document/9673511"
+        }
       ]
     }
   ],
